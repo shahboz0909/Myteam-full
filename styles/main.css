@@ -747,20 +747,16 @@ margin-right: auto;
 /* FORM-SECTION */
 .form-section {
   background-color: rgb(1, 78, 86);
-  background-image: url('../img/formdisk1.png');
-  background-size: 200px 200px;
+  background-image: url('../img/formdisk1.png'), url('../img/formdisk2.png');
+  background-size: 200px 200px, 225px 225px;
   background-repeat: no-repeat;
-  background-position-x: calc(50% - 760px);
-  background-position-y: calc(50% - 100px);
+  background-position: left calc(50% - 760px)  top calc(50% - 100px), right calc(50% - 770px) bottom;
 }
 .form-box {
   display: flex;
   justify-content: space-between;
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url('../img/formdisk2.png');
-  background-size: 200px 200px;
-  background-repeat: no-repeat;
 }
             
 
@@ -883,4 +879,10 @@ color: #004047;
 border-radius: 45px;
 border: none;
 cursor: pointer;
+}
+.frm-init::placeholder {
+color: rgb(196, 194, 194);
+}
+.frm-init2::placeholder {
+  color: rgb(196, 194, 194);
 }
