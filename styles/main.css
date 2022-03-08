@@ -56,6 +56,17 @@ header {
   margin-right: auto;
   
 }
+.container-hero {
+  width: 1140px;
+  padding: 0, 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../img/disk2.svg');
+  background-size: 358px 200px;
+  background-repeat: no-repeat;
+  background-position-y: calc(50% + 340px);
+  background-position-x: calc(50% + 370px);
+}
 
 .logo-img {
 width: 159.95px;
@@ -127,10 +138,16 @@ color: #FFFFFF;
 
 .site-hero-sectoin {
   background-color: rgb(1, 78, 86);
+  background-image: url('../img/disk1.png');
+  background-repeat: no-repeat;
+  background-position-x: calc(50% - 760px);
+  background-position-y: calc(50% - 100px);
+  background-size: 200px 200px;
 }
 
 .site-hero {
   padding-top: 70px;
+  padding-bottom: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -172,11 +189,17 @@ color: #FFFFFF;
 
 .section-build {
   background-color: #012F34;
-  padding-bottom: 130px
+  padding-bottom: 130px;
+  background-image: url('../img/disk33.png');
+  background-repeat: no-repeat;
+  background-size: 100px 244px ;
+  background-position-x: calc(50% + 720px);
+  background-position-y: calc(50% + 250px);
 }
 .build-list {
   padding-top: 198px;
   list-style-type: none;
+  
 }
 
 .build-text {
@@ -241,13 +264,30 @@ color: #bbaaaa;
 
 
 .deliver-section {
-  padding-top: 140px;
-  padding-bottom: 151px;
+  /* padding-top: 140px; */
   background-color: #004047;
+  background-image: url('../img/disk5.png');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position-x: calc(50% + 630px);
+  background-position-y: calc(50% + 190px);
+}
+.container-deliver {
+  width: 1140px;
+  padding-bottom: 151px;
+  padding-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  background-image: url('../img/disk4.png');
+  background-repeat: no-repeat;
+  background-size: 147px 100px ;
+  background-position-x: calc(50% - 500px);
+  background-position-y: calc(50% - 270px);
 }
 
 .stories {
-padding-bottom: 92px;
+padding-bottom: 52px;
 margin: 0;
 width: 932px;
 font-size: 48px;
@@ -262,6 +302,8 @@ margin-right: auto;
 }
 
 .dell-list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
 }
@@ -271,7 +313,8 @@ padding-left: 15px;
 padding-right: 15px;
 }
 .dell-text {
-  margin: 0;
+margin: 0;
+padding-top: 40px;
 height: 100px;
 font-style: normal;
 font-weight: 600;
@@ -279,9 +322,14 @@ font-size: 15px;
 line-height: 25px;
 text-align: center;
 color: #FFFFFF;
+background-image: url('../img/tochk.svg');
+background-repeat: no-repeat;
+background-size: 67px 56px;
+background-position-x:calc(50%) ;
+background-position-y:calc(50% - 18px) ;
 }
 .dell-spn1 {
-  margin-top: 24px;
+  margin-top: 54px;
 display: block;
 height: 28px;
 font-style: normal;
@@ -314,6 +362,11 @@ margin-right: auto;
       padding-top: 76px;
       padding-bottom: 76px;
       background-color: rgb(246, 126, 126);
+      background-image: url('../img/readydisk.svg');
+      background-repeat: no-repeat;
+      background-size: 200px 244px;
+      background-position-x: calc(50% - 660px);
+      background-position-y: calc(50% + 80px);
     }
 
     .ready {
@@ -438,6 +491,11 @@ margin-right: auto;
           .about-hero-section {
             padding-top: 50px;
             background-color: #014E56;
+            background-image: url('../img/p2disk1.png');
+            background-repeat: no-repeat;
+            background-size:200px 200px ;
+            background-position-x: calc(50% + 760px);
+            background-position-y: calc(50% + 75px);
           }
 
           .about-hero {
@@ -479,9 +537,28 @@ margin-right: auto;
 
 
           .hover-section {
-            padding-bottom: 100px;
+            /* padding-bottom: 100px; */
             background-color: #004047;
+            background-image: url('../img/p2disk2.png');
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-position-x: calc(50% - 765px);
+            background-position-y: calc(50% - 368px);
           }
+          .cotainer-about{
+            width: 1440px;
+            padding: 0, 20px;
+            padding-bottom: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: url('../img/p2disk3.png');
+            background-repeat: no-repeat;
+            background-size:147px 100px;
+            background-position-x: calc(50% + 650px);
+            background-position-y: calc(50% + 420px);
+            
+          }
+          
           .about-list {
             width: 1110px;
             display: flex;
@@ -636,6 +713,11 @@ margin-right: auto;
           .clients-section {
             padding-bottom: 150px;
             background-color: #012F34;
+            background-image: url('../img/p2end.svg');
+            background-size: 200px 200px;
+            background-repeat: no-repeat;
+            background-position-x: calc(50% - 600px);
+            background-position-y: calc(50% - 80px);
           }
 
           .clients-heading {
@@ -660,3 +742,145 @@ margin-right: auto;
             justify-content: space-between;
             list-style-type: none;
           }
+
+
+/* FORM-SECTION */
+.form-section {
+  background-color: rgb(1, 78, 86);
+  background-image: url('../img/formdisk1.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position-x: calc(50% - 760px);
+  background-position-y: calc(50% - 100px);
+}
+.form-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url('../img/formdisk2.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+            
+
+.href {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  height: 100px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+.ask {
+width: 540px;
+height: 48px;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+color: #F67E7E;
+}
+
+.contact-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.contact-item1 {
+padding-top: 30px;
+padding-left: 90px;
+padding-bottom: 25px;
+font-style: 300;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+
+background-image: url('../img/form1.png');
+background-repeat: no-repeat;
+background-size:72px 72px ;
+background-position-x: calc(10% - 40px);
+}
+.contact-item2 {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 90px;
+  font-style: 300;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+
+  background-image: url('../img/form2.png');
+background-repeat: no-repeat;
+background-size:72px 72px ;
+background-position-x: calc(10% - 40px);
+  }
+  .contact-item3 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 90px;
+    font-style: 300;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+    background-image: url('../img/form3.png');
+    background-repeat: no-repeat;
+    background-size:72px 72px ;
+    background-position-x: calc(10% - 40px);
+    }
+
+
+    .frm-init {
+      padding-left: 15px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid rgb(240, 217, 217);
+      background-color: rgb(1, 78, 86);
+      width: 540px;
+      height: 60px;
+      outline: none;
+      cursor: pointer;
+    }
+    
+    .frm-init2 {
+      outline: none;
+      padding-left: 15px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid rgb(240, 217, 217);
+      background-color: rgb(1, 78, 86);
+      width: 540px;
+      height: 100px;
+      cursor: pointer;
+    }
+    .frm-init2:hover {
+      border-bottom: 1px solid rgb(131, 47, 47);
+    }
+    .frm-init:hover {
+      border-bottom: 1px solid rgb(131, 47, 47);
+    }
+
+
+    .form-btn {
+margin-top: 30px;
+height: 28px;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+width: 123px;
+height: 48px;
+color: #004047;
+border-radius: 45px;
+border: none;
+cursor: pointer;
+}
